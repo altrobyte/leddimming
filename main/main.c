@@ -8,6 +8,7 @@
 
 void app_main(void)
 {
+    
     // Configure DAC on GPIO25
     dac_oneshot_config_t dac_cfg = {
         .chan_id = DAC_CHAN_0
